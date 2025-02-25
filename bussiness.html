@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section class="vh-200">
+        <div class="container-fluid h-custom">
+          <div class="row d-flex justify-content-center align-items-center h-100">
+
+            
+            <div class="col-md-4 col-lg-6 col-xl-8 offset-xl-1">
+              <form action="/bussdeal">
+                  <div class="af" style="padding-bottom: 2rem; padding-left: 350PX; padding-top:50px;">
+                    <h1>CLIENT INFO</h1>
+                    </div>
+
+                <!-- Email input -->
+                <div class="form-group">
+                    <label> Name of Enterprise<span class="req">*</span> </label>
+                    <input type="tel" class="form-control" id="phone" required data-validation-required-message placeholder="Please enter nsme of your enterprise " autocomplete="off">
+                    <p class="help-block text-danger"></p>
+                  </div>
+      
+                <!-- Password input -->
+                <div class="form-group">
+                    <label> Mailing address<span class="req">*</span> </label>
+                    <input type="tel" class="form-control" id="phone" required data-validation-required-message placeholder="Enter your mailing address" autocomplete="off">
+                    <p class="help-block text-danger"></p>
+                  </div>
+                <!----->
+
+                
+
+                <div class="row">
+                    <div class="col-xs-12 col-sm-4">
+                      <div class="form-group">
+                        <label>City<span class="req">*</span> </label>
+                        <input type="text" class="form-control" id="first_name" required data-validation-required-message="" autocomplete="off">
+                        <p class="help-block text-danger"></p>
+                      </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-4">
+                      <div class="form-group">
+                        <label> State<span class="req">*</span> </label>
+                        <input type="text" class="form-control" id="last_name" required data-validation-required-message="" autocomplete="off">
+                        <p class="help-block text-danger"></p>
+                      </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-4">
+                        <div class="form-group">
+                          <label> ZipCode<span class="req">*</span> </label>
+                          <input type="text" class="form-control" id="last_name" required data-validation-required-message="Please enter your name." autocomplete="off">
+                          <p class="help-block text-danger"></p>
+                        </div>
+                      </div>
+                  </div>
+
+
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-6">
+                <div class="form-group">
+                    <label> Your Phone<span class="req">*</span> </label>
+                    <input type="tel" class="form-control" id="phone" required data-validation-required-message placeholder="Please enter your phone number." autocomplete="off">
+                    <p class="help-block text-danger"></p>
+                  </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-6">
+                    <div class="form-group">
+                      <label> Fax<span class="req">*</span> </label>
+                      <input type="text" class="form-control" id="last_name" required data-validation-required-message="" autocomplete="off">
+                      <p class="help-block text-danger"></p>
+                    </div>
+                  </div>
+                </div>
+
+
+
+                <div class="row">
+                    <div class="col-xs-12 col-sm-4">
+                <div class="form-group">
+                   <label> Type of business<span class="req">*</span> </label>
+
+                   <select class="form-select" aria-label="Default select example">
+                    <option selected>Type of business</option>
+                    <option value="1">Travel</option>
+                    <option value="2">Hotels</option>
+                    <option value="3">Restaurents</option>
+                  </select>
+                  
+                    <p class="help-block text-danger"></p>
+                  </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-4">
+                    <div class="form-group">
+                      <label>TaxID<span class="req">*</span> </label>
+                      <input type="text" class="form-control" id="last_name" required data-validation-required-message="" autocomplete="off">
+                      <p class="help-block text-danger"></p>
+                    </div>
+                  </div>
+
+                  <div class="col-xs-12 col-sm-4">
+                    <div class="form-group">
+                      <label>GSTIN<span class="req">*</span> </label>
+                      <input type="text" class="form-control" id="last_name" required data-validation-required-message="" autocomplete="off">
+                      <p class="help-block text-danger"></p>
+                    </div>
+                  </div>
+                </div>
+
+
+
+
+
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6">
+                <div class="form-group">
+                    <label> Contract Amount<span class="req">*</span> </label>
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Enter in percentage</option>
+                        <option value="1">5%</option>
+                        <option value="2">10%</option>
+                        <option value="3">15%</option>
+                        <option value="3">25%</option>
+                        <option value="3">50%</option>
+                      </select>
+                  </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-6">
+                    <div class="form-group">
+                      <label> Contract Duration<span class="req">*</span> </label>
+                      <input type="text" class="form-control" id="last_name" required data-validation-required-message="" autocomplete="off">
+                      <p class="help-block text-danger"></p>
+                    </div>
+                  </div>
+                </div>
+
+
+
+
+
+      
+                <div class="d-flex justify-content-between align-items-center">
+                  <!-- Checkbox -->
+                </div>
+                
+      
+                <div class="text-center text-lg-start mt-4 pt-2" style="padding-left: 400px;">
+                <button type="button" class="btn btn-primary btn-lg"
+                    style="padding-left: 2.5rem; padding-right: 2.5rem;">Submit</button>
+                </div>
+            
+
+              </form>
+            </div>
+          </div>
+        </div>
+
+        </div>
+      </section>
+
+      <style>
+          .divider:after,
+.divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #eee;
+}
+.h-custom {
+  height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+  .h-custom {
+    height: 100%;
+  }
+}
+
+
+.fa {
+  text-align: center;
+  text-decoration: none;
+}
+body{
+  background-image: url("https://files.123freevectors.com/wp-content/original/202633-light-color-plain-background.jpg");
+  background-size: cover;
+}
+      </style>
+
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+</body>
+</html>
